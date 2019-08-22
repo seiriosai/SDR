@@ -199,7 +199,7 @@ void KITTI(const std::string inputDir, const std::string outputDir,
         };
         disp_WTA_u16 =
             cv::imread(inputDir + "disp_WTA/" + cv::format("%06d_10.png", i),
-                       CV_LOAD_IMAGE_UNCHANGED);
+                       cv::IMREAD_UNCHANGED);
         if (disp_WTA_u16.empty()) {
             printf("WTA disparity map not found in\n");
             printf("%s\n", inputDir.c_str());

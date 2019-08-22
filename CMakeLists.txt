@@ -12,7 +12,7 @@ link_directories(${PROJECT_BINARY_DIR}/libs)
 set(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/libs)
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
 
-add_subdirectory(Superpixel)
+#add_subdirectory(Superpixel)
 add_subdirectory(GCoptimization)
 add_subdirectory(fdr)
 
