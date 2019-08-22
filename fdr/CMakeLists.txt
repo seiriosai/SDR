@@ -5,10 +5,6 @@ set(CMAKE_BUILD_TYPE "Release")
 set(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g -ggdb")
 set(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
 
-if(MSVC)
-    set(OpenCV_DIR "C:/Program Files/opencv_3_4/opencv/build")
-endif()
-
 find_package(OpenCV REQUIRED)
 find_package(Eigen3 REQUIRED)
 
