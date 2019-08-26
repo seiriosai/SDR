@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.8)
 project(fdr)
 
-set(CMAKE_BUILD_TYPE "Release")
-set(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g -ggdb")
-set(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
+# set(CMAKE_BUILD_TYPE "Release")
+# set(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g -ggdb")
+# set(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
 
 find_package(OpenCV REQUIRED)
 find_package(Eigen3 REQUIRED)
